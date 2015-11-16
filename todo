@@ -1,0 +1,35 @@
+
+typedef struct Number {
+	char sign;
+	char *integer;
+	char *fraction;
+}Number;
+
+void initNumber(Number *a);                   *****
+Number CreateNumber(Number num); /*creates a number (done)*/ *****
+Number CreateNumberFromString(char *str);     *****
+Number 
+void PrintNumber(Number );    *****
+
+
+Number AddNumber(Number a , Number b);  /* check for NULL		done 
+					 * copy				done			
+					 * sign 
+					 * check all cases		done 
+					 * #define			noe
+					 */
+char* AddInteger(Number a , Number b);	/* check for cases*/
+char* AddFraction(Number a, Number b) ; /*copy*/
+char *appendleft(int a, char *str);     /* appends to the left 
+					   append zero
+					 */
+					
+
+Number SubNumber(Number a , Number b); /* sign
+					*/					 
+int CompareNumber(Number a, Number b) ;
+
+
+Number MulNumber(Number a , Number b);
+Number DivNumber(Number a , Number b);
+Number power(Number a , Number b);
