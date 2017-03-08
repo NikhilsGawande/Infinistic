@@ -14,7 +14,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "num.h"
+#include "../src/num.h"
 
 typedef struct node {
 	Number a;

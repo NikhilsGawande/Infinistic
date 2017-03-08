@@ -1,0 +1,10 @@
+ACLOCAL_AMFLAGS = -I m4 --install
+lib_LTLIBRARIES = libnumstack-1.0.la
+libnumstack_1_0_la_SOURCES = lib/numstack.c lib/numstack.h
+libnumstack_1_0_la_LDFLAGS = -version-info 0:0:0
+include_HEADERS = src/num.h lib/numstack.h
+bin_PROGRAMS=infinistic
+infinistic_SOURCES=src/main.c src/num.c src/num.h
+infinitstic_CPPFLAGS=-DDEBUG
+infinistic_LDADD = $(lib_LTLIBRARIES)
+EXTRA_DIST = m4/NOTES

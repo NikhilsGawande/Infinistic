@@ -18,7 +18,7 @@
 #include <string.h>
 #include<ctype.h>
 #include <limits.h>
-#include "numstack.h"
+#include "../lib/numstack.h"
 void initNumber(Number *a) {
 	a->sign = '+';
 	a->integer = NULL;
