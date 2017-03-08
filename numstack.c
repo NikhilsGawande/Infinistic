@@ -1,4 +1,4 @@
-    This file is part of 'Mathbuddy' project.
+/*    This file is part of 'Mathbuddy' project.
 
     Mathbuddy is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -12,7 +12,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
+*/
 #include "numstack.h"
 #include <stdio.h>
 #include <stdlib.h>
