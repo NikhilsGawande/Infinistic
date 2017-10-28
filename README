@@ -1,0 +1,9 @@
+#Infinistic 
+
+for Auconsfication branch run :
+
+$ ./configure
+
+$ make 
+
+$ ./infinistic 
